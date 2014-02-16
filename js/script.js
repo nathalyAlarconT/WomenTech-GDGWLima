@@ -66,10 +66,11 @@ function initialize() {
 $(window).bind('scroll', function(){
 	if($(window).scrollTop() >= 587){
 		$('#nav-top').css({"position":"fixed", "top": 0, "left":0});
-	}
-	else
-	{
+        $('.sectionContainer').css({"padding-top":"60px"});
+	} else {
 		$('#nav-top').css("position", "static");
+        $('.sectionContainer').css({"padding-top":"10px"});
+       
 	}
 
 });
