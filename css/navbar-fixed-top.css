@@ -1,6 +1,10 @@
 body {
  /* min-height: 2000px;
   padding-top: 100px;*/
+  background-color: white;
+  color: #202020;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; 
 }
 header{
 background-image:url("../img/header-w.jpg") ;
@@ -87,17 +91,29 @@ position: static;
 
 
 /*NATHALY*/
-#pageContent {}
+#pageContent {  padding-top: 15px;}
 .sectionContainer {min-height: 500px;}
 .featurette-divider {margin-bottom: 0px;}
-.navbar-nav li a:active, .navbar-nav li a:hover  { background-color: #E7E7E7; }
+
+/*AZUL WT #4571B4;*/ 
+#nav-top {background-color: #000; color: #fff;}
+ 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus  {border-bottom: 4px solid #4571B4; color: #4571B4; background-color: #000;} 
 .speakers-container {display: block; overflow: hidden; }
 .mainspeaker {display: inline-block; overflow: hidden; width: 49%; border: 1px solid #E7E7E7;}
 .mainspeaker .l {display: block; overflow: hidden; width: 35%; float: left;}
 .mainspeaker .r {display: block; overflow: hidden; width: 65%; float: left;}
 .titulospeaker, .cargospeakers {color: #47AFDE; clear: both; font-weight: bold;}
 
-.table-programa {width: 800px; margin: auto; background-color: #E7E7E7; } 
-.table-programa tr {height: 30px;}
-.table-programa th {color: #47AFDE ;}
-.table-programa .hour {font-weight: bold; width: 250px;}
+.table_programa {width: 800px; margin: auto; background-color: #E7E7E7; } 
+.table_programa .hour {font-weight: bold; width: 250px;}
+
+.table_programa tr, .table_programa tr td {
+border: 3px solid #FFFFFF;
+text-align: center;
+padding: 15px;
+color: #000000;
+font-size: 11pt;
+}
+
+
