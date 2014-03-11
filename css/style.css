@@ -77,7 +77,9 @@ nav a{
 section{
 	width: 100%;
 	text-align: center;
-
+	padding-bottom: 20px;
+	background: #fff;
+	padding-top: 40px;
 }
 #mas{
 	width: 150px;
@@ -95,6 +97,8 @@ section{
 }
 #sec-nuevo-evento{
 	text-align: center;
+	background: none !important;
+	padding: 0;
 	
 
 }
@@ -102,11 +106,14 @@ section{
 	text-align: center;
 	background: #FFF;
 }
-#sec-comunidades{
+#sec-wtm, #sec-wow{
 	text-align: center;
 	background: #FFF;
+   width: 50%;
+   display: inline-block;
+   float: left;
 }
-#sec-encuentranos{
+#sec-encuentranos, #sec-registrate, #sec-speakers{
 	text-align: center;
 	background: #FFF;
 }
@@ -294,3 +301,17 @@ section{
    -ms-transition-delay: 0.3s;
    transition-delay: 0.3s;
 }
+
+.speaker {width: 50%; display: inline-block; float: left; height: 170px;}
+.image-speaker {height: 140px; float: left; margin: 15px; }
+.name-speaker {clear: both; font-weight: bold; margin: 10px;}
+.job-speaker {clear: both; color: #808080; }
+.speaker-details {display: block;}
+
+.image-auspic {height: 70px; margin: 30px;}
+.social-media a {width: 64px; height: 24px; display: inline-block; overflow: hidden; text-align: center; margin: 0 !important;}
+#network_plus {background: url('../img/gplus.png') no-repeat center;}
+#network_twitter {background: url('../img/twitter.png') no-repeat center;}
+#network_facebook {background: url('../img/facebook.png') no-repeat center;}
+.social-media a:hover {opacity: 0.8; }
+.hashtags {width: 120px !important; height: 32px !important; padding: 0 !important; margin: 0 !important;} 
